@@ -1,0 +1,147 @@
+{
+    "summary": {
+        "total_registration": 2065,
+        "abstract_sub": 105,
+        "participating_countries": 39,
+        "previous_registration": 1765,
+        "previous_abstract": 105,
+        "previous_countries": 37
+    },
+    "category": {
+        "doctors": 774,
+        "nurses": 761,
+        "allied_hcp": 528
+    },
+    "uae": {
+        "dxb_shj": 1134,
+        "abu_dhabi_al_ain": 633,
+        "other_emirates": 140
+    },
+    "regional": {
+        "regional": 56,
+        "apac": 63,
+        "international": 35
+    },
+    "sessions": [
+        {
+            "name": "Day 1 - Head & Neck Oncology",
+            "planned": 500,
+            "previous": 509,
+            "current": 604,
+            "unique": 245,
+            "oncologist": 30,
+            "deficit": -104,
+            "target": 500
+        },
+        {
+            "name": "Day 1 - Breast Imaging / Breast Surgical Session",
+            "planned": 0,
+            "previous": 807,
+            "current": 923,
+            "unique": 657,
+            "oncologist": 19,
+            "deficit": -673,
+            "target": 250
+        },
+        {
+            "name": "Day 2 - Breast Cancer Session",
+            "planned": 0,
+            "previous": 847,
+            "current": 996,
+            "unique": 443,
+            "oncologist": 41,
+            "deficit": -496,
+            "target": 500
+        },
+        {
+            "name": "Day 2 - Lung Cancer",
+            "planned": 0,
+            "previous": 595,
+            "current": 697,
+            "unique": 218,
+            "oncologist": 38,
+            "deficit": -197,
+            "target": 500
+        },
+        {
+            "name": "Day 1 - GI Cancer",
+            "planned": 0,
+            "previous": 645,
+            "current": 645,
+            "unique": 381,
+            "oncologist": 84,
+            "deficit": -145,
+            "target": 500
+        },
+        {
+            "name": "Day 1 - Oncology Nutrition",
+            "planned": 0,
+            "previous": 542,
+            "current": 542,
+            "unique": 240,
+            "oncologist": 27,
+            "deficit": -292,
+            "target": 250
+        },
+        {
+            "name": "Day 1 - Immuno Oncology",
+            "planned": 0,
+            "previous": 623,
+            "current": 623,
+            "unique": 305,
+            "oncologist": 46,
+            "deficit": -123,
+            "target": 500
+        },
+        {
+            "name": "Day 2 - Uro Oncology",
+            "planned": 0,
+            "previous": 288,
+            "current": 288,
+            "unique": 244,
+            "oncologist": 35,
+            "deficit": 12,
+            "target": 300
+        },
+        {
+            "name": "Day 2 - Young Leaders in Oncology",
+            "planned": 0,
+            "previous": 339,
+            "current": 339,
+            "unique": 295,
+            "oncologist": 14,
+            "deficit": -89,
+            "target": 250
+        },
+        {
+            "name": "Day 2 - Nursing",
+            "planned": 0,
+            "previous": 598,
+            "current": 598,
+            "unique": 364,
+            "oncologist": 10,
+            "deficit": -298,
+            "target": 300
+        },
+        {
+            "name": "Day 2 - Palliative Care",
+            "planned": 0,
+            "previous": 532,
+            "current": 532,
+            "unique": 298,
+            "oncologist": 31,
+            "deficit": -282,
+            "target": 250
+        }
+    ],
+    "uaePrev": {
+        "dxb_shj": 934,
+        "abu_dhabi_al_ain": 586,
+        "other_emirates": 107
+    },
+    "regionalPrev": {
+        "regional": 51,
+        "apac": 55,
+        "international": 32
+    }
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Milestone Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-600 text-white shadow-md py-6">
+    <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
+      <div>
+        <h1 class="text-3xl font-bold">Milestone Tracker Dashboard</h1>
+        <p class="mt-1 text-blue-200">Track weekly goals, achievements, and revenue progress</p>
+      </div>
+      <div>
+        <button onclick="window.location.href='index.html'"
+                class="bg-white text-blue-600 font-semibold py-2 px-4 rounded shadow hover:bg-gray-100">
+          ← Back
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="max-w-7xl mx-auto px-6 mt-6">
+
+    <!-- Milestone Table Card -->
+    <div class="bg-white shadow-md rounded-xl p-6">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-4">Weekly Milestones</h2>
+      <div class="overflow-x-auto">
+        <table class="min-w-full divide-y divide-gray-200 text-sm">
+          <thead class="bg-gray-100">
+            <tr>
+              <th class="px-4 py-2 text-left font-semibold text-gray-700">WEEKLY FORECAST</th>
+              <th class="px-4 py-2 text-center font-semibold text-gray-700">GOAL (VOL)</th>
+              <th class="px-4 py-2 text-center font-semibold text-gray-700">ACHIEVED</th>
+              <th class="px-4 py-2 text-center font-semibold text-gray-700">GOAL (REVENUE)</th>
+              <th class="px-4 py-2 text-center font-semibold text-gray-700">TOTAL (VOL)</th>
+              <th class="px-4 py-2 text-center font-semibold text-gray-700">ACHIEVED (REV)</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-gray-200">
+            <!-- Example Week Rows -->
+            <tr class="bg-gray-50 hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">2-Sep</td>
+              <td class="px-4 py-2 text-center goal-vol">300</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center" value="1108"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">5-Sep</td>
+              <td class="px-4 py-2 text-center goal-vol">150</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center" value="1258"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="bg-gray-50 hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">12-Sep</td>
+              <td class="px-4 py-2 text-center goal-vol">300</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center" value="1558"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">19-Sep</td>
+              <td class="px-4 py-2 text-center goal-vol">300</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center" value="1858"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="bg-gray-50 hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">26-Sep</td>
+              <td class="px-4 py-2 text-center goal-vol">300</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center" value="2044"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+
+            <!-- Future Weeks (Empty total) -->
+            <tr class="hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">3-Oct</td>
+              <td class="px-4 py-2 text-center goal-vol">350</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="bg-gray-50 hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">10-Oct</td>
+              <td class="px-4 py-2 text-center goal-vol">400</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">17-Oct</td>
+              <td class="px-4 py-2 text-center goal-vol">400</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="bg-gray-50 hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">24-Oct</td>
+              <td class="px-4 py-2 text-center goal-vol">450</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+            <tr class="hover:bg-gray-100">
+              <td class="px-4 py-2 font-medium">31-Oct</td>
+              <td class="px-4 py-2 text-center goal-vol">500</td>
+              <td class="px-4 py-2 text-center achieved">0</td>
+              <td class="px-4 py-2 text-center">AED-</td>
+              <td class="px-4 py-2 text-center total-vol"><input type="number" class="w-16 border rounded px-1 text-center"></td>
+              <td class="px-4 py-2 text-center">AED-</td>
+            </tr>
+
+            <!-- Total Row -->
+            <tr class="bg-gray-200 font-bold">
+              <td class="px-4 py-2 text-right">Total Remaining Goal</td>
+              <td class="px-4 py-2 text-center" id="goalTotal">0</td>
+              <td class="px-4 py-2 text-center" id="achievedTotal">0</td>
+              <td class="px-4 py-2 text-center"></td>
+              <td class="px-4 py-2 text-center" id="totalVolSum"><input type="number" class="w-16 border rounded px-1 text-center" value="0"></td>
+              <td class="px-4 py-2 text-center"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    const rows = document.querySelectorAll('tbody tr:not(.bg-gray-200)');
+    
+    function updateTracker() {
+      let prevTotal = 0;
+      let remainingGoal = 0;
+
+      rows.forEach(row => {
+        const totalInput = row.querySelector('td.total-vol input');
+        const achievedCell = row.querySelector('td.achieved');
+        const goalVol = Number(row.querySelector('.goal-vol').textContent) || 0;
+        const totalVal = Number(totalInput.value) || 0;
+
+        // Calculate Achieved
+        achievedCell.textContent = totalVal ? totalVal - prevTotal : 0;
+        prevTotal = totalVal ? totalVal : prevTotal;
+
+        // Add to remainingGoal only if total is empty
+        if (!totalInput.value) {
+          remainingGoal += goalVol;
+        }
+      });
+
+      document.getElementById('goalTotal').textContent = remainingGoal;
+    }
+
+    // Add event listener to all inputs
+    document.querySelectorAll('td.total-vol input').forEach(input => {
+      input.addEventListener('input', updateTracker);
+    });
+
+    updateTracker();
+  </script>
+
+</body>
+</html>

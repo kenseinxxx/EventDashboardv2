@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "total_registration": 2000,
+    "previous_registration": 1765,
+    "abstract_sub": 100,
+    "previous_abstract": 101,
+    "participating_countries": 40,
+    "previous_countries": 37
+  },
+  "category": {
+    "doctors": 500,
+    "nurses": 300,
+    "allied_hcp": 400
+  },
+  "uae": {
+    "dxb_shj": 934,
+    "abu_dhabi_al_ain": 586,
+    "other_emirates": 107
+  },
+  "uaePrev": {
+    "dxb_shj": 900,
+    "abu_dhabi_al_ain": 550,
+    "other_emirates": 100
+  },
+  "regional": {
+    "regional": 51,
+    "apac": 55,
+    "international": 32
+  },
+  "regionalPrev": {
+    "regional": 50,
+    "apac": 52,
+    "international": 30
+  },
+  "sessions": [
+    {
+      "name": "Day 1 - Head & Neck Oncology",
+      "target": 500,
+      "previous": 421,
+      "current": 509,
+      "unique": 208,
+      "oncologist": 27,
+      "deficit": 88
+    },
+    {
+      "name": "Day 1 - Breast Imaging / Breast Surgical Session",
+      "target": 250,
+      "previous": 678,
+      "current": 807,
+      "unique": 576,
+      "oncologist": 18,
+      "deficit": 129
+    },
+    {
+      "name": "Day 2 - Breast Cancer Session",
+      "target": 500,
+      "previous": 713,
+      "current": 847,
+      "unique": 378,
+      "oncologist": 43,
+      "deficit": 134
+    },
+    {
+      "name": "Day 2 - Lung Cancer",
+      "target": 500,
+      "previous": 508,
+      "current": 595,
+      "unique": 187,
+      "oncologist": 35,
+      "deficit": 87
+    },
+    {
+      "name": "Day 1 - GI Cancer",
+      "target": 500,
+      "previous": 532,
+      "current": 645,
+      "unique": 381,
+      "oncologist": 84,
+      "deficit": 113
+    },
+    {
+      "name": "Day 1 - Oncology Nutrition",
+      "target": 250,
+      "previous": 447,
+      "current": 542,
+      "unique": 240,
+      "oncologist": 27,
+      "deficit": 95
+    },
+    {
+      "name": "Day 1 - Immuno Oncology",
+      "target": 500,
+      "previous": 535,
+      "current": 623,
+      "unique": 305,
+      "oncologist": 46,
+      "deficit": 88
+    },
+    {
+      "name": "Day 2 - Uro Oncology",
+      "target": 300,
+      "previous": 258,
+      "current": 288,
+      "unique": 244,
+      "oncologist": 35,
+      "deficit": 30
+    },
+    {
+      "name": "Day 2 - Young Leaders in Oncology",
+      "target": 250,
+      "previous": 294,
+      "current": 339,
+      "unique": 295,
+      "oncologist": 14,
+      "deficit": 45
+    },
+    {
+      "name": "Day 2 - Nursing",
+      "target": 300,
+      "previous": 505,
+      "current": 598,
+      "unique": 364,
+      "oncologist": 10,
+      "deficit": 93
+    },
+    {
+      "name": "Day 2 - Palliative Care",
+      "target": 250,
+      "previous": 444,
+      "current": 532,
+      "unique": 298,
+      "oncologist": 31,
+      "deficit": 88
+    }
+  ]
+}
