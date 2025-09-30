@@ -38,7 +38,7 @@
             "planned": 0,
             "previous": 923,
             "current": 976,
-            "unique": 657,
+            "unique": 704,
             "oncologist": 19,
             "deficit": -726,
             "target": 250
@@ -48,7 +48,7 @@
             "planned": 0,
             "previous": 996,
             "current": 1056,
-            "unique": 443,
+            "unique": 465,
             "oncologist": 41,
             "deficit": -556,
             "target": 500
@@ -58,7 +58,7 @@
             "planned": 0,
             "previous": 697,
             "current": 744,
-            "unique": 218,
+            "unique": 233,
             "oncologist": 38,
             "deficit": -244,
             "target": 500
