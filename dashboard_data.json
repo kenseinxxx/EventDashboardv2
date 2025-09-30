@@ -1,329 +1,147 @@
 {
-    "summary": {
-        "total_registration": 2229,
-        "abstract_sub": 105,
-        "participating_countries": 40,
-        "previous_registration": 2063,
-        "previous_abstract": 105,
-        "previous_countries": 39
+  "summary": {
+    "total_registration": 2229,
+    "abstract_sub": 105,
+    "participating_countries": 40,
+    "previous_registration": 2063,
+    "previous_abstract": 105,
+    "previous_countries": 39
+  },
+  "category": {
+    "doctors": 851,
+    "nurses": 809,
+    "allied_hcp": 569
+  },
+  "uae": {
+    "dxb_shj": 1224,
+    "abu_dhabi_al_ain": 690,
+    "other_emirates": 151
+  },
+  "regional": {
+    "regional": 59,
+    "apac": 66,
+    "international": 36
+  },
+  "sessions": [
+    {
+      "name": "Day 1 - Head & Neck Oncology",
+      "planned": 500,
+      "previous": 604,
+      "current": 652,
+      "unique": 245,
+      "oncologist": 30,
+      "deficit": -152,
+      "target": 500
     },
-    "category": {
-        "doctors": 851,
-        "nurses": 809,
-        "allied_hcp": 569
+    {
+      "name": "Day 1 - Breast Imaging / Breast Surgical Session",
+      "planned": 0,
+      "previous": 923,
+      "current": 976,
+      "unique": 704,
+      "oncologist": 19,
+      "deficit": -726,
+      "target": 250
     },
-    "uae": {
-        "dxb_shj": 1224,
-        "abu_dhabi_al_ain": 690,
-        "other_emirates": 151
+    {
+      "name": "Day 2 - Breast Cancer Session",
+      "planned": 0,
+      "previous": 996,
+      "current": 1056,
+      "unique": 465,
+      "oncologist": 41,
+      "deficit": -556,
+      "target": 500
     },
-    "regional": {
-        "regional": 59,
-        "apac": 66,
-        "international": 36
+    {
+      "name": "Day 2 - Lung Cancer",
+      "planned": 0,
+      "previous": 697,
+      "current": 744,
+      "unique": 233,
+      "oncologist": 38,
+      "deficit": -244,
+      "target": 500
     },
-    "uaePrev": {
-        "dxb_shj": 1091,
-        "abu_dhabi_al_ain": 626,
-        "other_emirates": 127
+    {
+      "name": "Day 1 - GI Cancer",
+      "planned": 0,
+      "previous": 752,
+      "current": 785,
+      "unique": 394,
+      "oncologist": 84,
+      "deficit": -285,
+      "target": 500
     },
-    "regionalPrev": {
-        "regional": 55,
-        "apac": 62,
-        "international": 35
+    {
+      "name": "Day 1 - Oncology Nutrition",
+      "planned": 0,
+      "previous": 667,
+      "current": 720,
+      "unique": 378,
+      "oncologist": 27,
+      "deficit": -470,
+      "target": 250
     },
-    "sessions": {
-        "gi_cancer": {
-            "capacity": 500,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "head_neck_oncologist": 0,
-                "physicians": 0,
-                "dietician": 0,
-                "pediatric_specialist": 0,
-                "anesthesiologist": 0,
-                "surgical_oncologist": 0,
-                "surgical_specialist": 0,
-                "general_surgeon": 0,
-                "urologist": 0,
-                "radiology_specialist": 0,
-                "nurses": 0,
-                "oncology_nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "head_neck": {
-            "capacity": 500,
-            "total": 150,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 250,
-                "head_neck_specialist": 100,
-                "physicians": 0,
-                "onco_nurses": 0,
-                "nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "oncology_nutrition": {
-            "capacity": 250,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "head_neck_oncologist": 0,
-                "physician": 0,
-                "dietician": 0,
-                "anesthesiologist": 0,
-                "surgical_oncologist": 0,
-                "surgical_specialist": 0,
-                "general_surgeon": 0,
-                "urologist": 0,
-                "radiology_specialist": 0,
-                "nurses": 0,
-                "oncology_nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "immuno_oncology": {
-            "capacity": 500,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "physicians": 0,
-                "nurses": 0
-            }
-        },
-        "breast_imaging_surgical": {
-            "capacity": 250,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "breast_specialist": 0,
-                "physicians": 0,
-                "nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "lung_cancer": {
-            "capacity": 500,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "lung_specialist": 0,
-                "physicians": 0,
-                "nurses": 0,
-                "onco_nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "breast_cancer": {
-            "capacity": 500,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncologist_specialist": 0,
-                "breast_specialist": 0,
-                "physicians": 0,
-                "nurses": 0,
-                "onco_nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "uro_oncology": {
-            "capacity": 300,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "physician": 0,
-                "urologist": 0,
-                "nurses": 0,
-                "allied": 0
-            }
-        },
-        "oncology_nursing": {
-            "capacity": 300,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "nurses": 0,
-                "oncology_nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        },
-        "palliative_care": {
-            "capacity": 250,
-            "total": 0,
-            "unique": 0,
-            "categories": {
-                "oncology_specialist": 0,
-                "physicians": 0,
-                "nurses": 0,
-                "oncology_nurses": 0,
-                "allied": 0,
-                "academia": 0
-            }
-        }
+    {
+      "name": "Day 1 - Immuno Oncology",
+      "planned": 0,
+      "previous": 746,
+      "current": 800,
+      "unique": 388,
+      "oncologist": 46,
+      "deficit": -300,
+      "target": 500
     },
-    "program_glance": {
-        "gi_cancer": {
-            "capacity": 500,
-            "total": 785,
-            "unique": 394,
-            "categories": {
-                "oncology_specialist": 59,
-                "head_neck_oncologist": 3,
-                "physicians": 132,
-                "dietician": 7,
-                "pediatric_specialist": 3,
-                "anesthesiologist": 7,
-                "surgical_oncologist": 11,
-                "surgical_specialist": 1,
-                "general_surgeon": 60,
-                "urologist": 9,
-                "radiology_specialist": 25,
-                "nurses": 131,
-                "oncology_nurses": 7,
-                "allied": 92,
-                "academia": 97
-            }
-        },
-        "head_neck": {
-            "capacity": 500,
-            "total": 652,
-            "unique": 281,
-            "categories": {
-                "oncology_specialist": 30,
-                "head_neck_specialist": 27,
-                "physicians": 144,
-                "onco_nurses": 2,
-                "nurses": 176,
-                "allied": 134,
-                "academia": 91
-            }
-        },
-        "oncology_nutrition": {
-            "capacity": 250,
-            "total": 720,
-            "unique": 378,
-            "categories": {
-                "oncology_specialist": 27,
-                "head_neck_oncologist": 3,
-                "physician": 95,
-                "dietician": 22,
-                "anesthesiologist": 1,
-                "surgical_oncologist": 1,
-                "surgical_specialist": 9,
-                "general_surgeon": 3,
-                "urologist": 3,
-                "radiology_specialist": 1,
-                "nurses": 179,
-                "oncology_nurses": 6,
-                "allied": 88,
-                "academia": 73
-            }
-        },
-        "immuno_oncology": {
-            "capacity": 500,
-            "total": 800,
-            "unique": 388,
-            "categories": {
-                "oncology_specialist": 49,
-                "physicians": 84,
-                "nurses": 225
-            }
-        },
-        "breast_imaging_surgical": {
-            "capacity": 250,
-            "total": 976,
-            "unique": 704,
-            "categories": {
-                "oncology_specialist": 19,
-                "breast_specialist": 19,
-                "physicians": 238,
-                "onco_nurses": 8,
-                "nurses": 326,
-                "allied": 286,
-                "academia": 27
-            }
-        },
-        "lung_cancer": {
-            "capacity": 500,
-            "total": 744,
-            "unique": 233,
-            "categories": {
-                "oncology_specialist": 38,
-                "lung_specialist": 9,
-                "physicians": 169,
-                "onco_nurses": 3,
-                "nurses": 177,
-                "allied": 275,
-                "academia": 26
-            }
-        },
-        "breast_cancer": {
-            "capacity": 500,
-            "total": 1056,
-            "unique": 465,
-            "categories": {
-                "oncologist_specialist": 41,
-                "breast_specialist": 24,
-                "physicians": 259,
-                "onco_nurses": 14,
-                "nurses": 289,
-                "allied": 323,
-                "academia": 46
-            }
-        },
-        "uro_oncology": {
-            "capacity": 300,
-            "total": 408,
-            "unique": 306,
-            "categories": {
-                "oncology_specialist": 37,
-                "physician": 54,
-                "urologist": 25,
-                "nurses": 83,
-                "allied": 52,
-                "academia": 20
-            }
-        },
-        "oncology_nursing": {
-            "capacity": 300,
-            "total": 717,
-            "unique": 384,
-            "categories": {
-                "nurses": 491,
-                "oncology_nurses": 25,
-                "allied": 42,
-                "academia": 15
-            }
-        },
-        "palliative_care": {
-            "capacity": 250,
-            "total": 631,
-            "unique": 296,
-            "categories": {
-                "oncology_specialist": 35,
-                "physicians": 94,
-                "nurses": 209,
-                "oncology_nurses": 10,
-                "allied": 78,
-                "academia": 45
-            }
-        }
+    {
+      "name": "Day 2 - Uro Oncology",
+      "planned": 0,
+      "previous": 357,
+      "current": 408,
+      "unique": 306,
+      "oncologist": 35,
+      "deficit": -108,
+      "target": 300
+    },
+    {
+      "name": "Day 2 - Young Leaders in Oncology",
+      "planned": 0,
+      "previous": 410,
+      "current": 447,
+      "unique": 359,
+      "oncologist": 14,
+      "deficit": -197,
+      "target": 250
+    },
+    {
+      "name": "Day 2 - Nursing",
+      "planned": 0,
+      "previous": 668,
+      "current": 717,
+      "unique": 384,
+      "oncologist": 10,
+      "deficit": -417,
+      "target": 300
+    },
+    {
+      "name": "Day 2 - Palliative Care",
+      "planned": 0,
+      "previous": 586,
+      "current": 631,
+      "unique": 296,
+      "oncologist": 31,
+      "deficit": -381,
+      "target": 250
     }
+  ],
+  "uaePrev": {
+    "dxb_shj": 1091,
+    "abu_dhabi_al_ain": 626,
+    "other_emirates": 127
+  },
+  "regionalPrev": {
+    "regional": 55,
+    "apac": 62,
+    "international": 35
+  }
 }
