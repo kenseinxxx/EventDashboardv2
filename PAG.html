@@ -411,10 +411,10 @@
     </div>
   </section>
 
-  <p class="footer-note">Tip: switch the dropdown to view bars as a percentage of Total registrations vs. Unique attendees. Click <b>Edit</b> to modify counts inline; <b>Save</b> sends updates to your Flask endpoint and writes them into <code>dashboard_data.json</code>.</p>
+  <p class="footer-note">Tip: switch the dropdown to view bars as a percentage of Total registrations vs. Unique attendees. Click <b>Edit</b> to modify counts inline; <b>Save</b> sends updates to your Flask endpoint and writes them into <code>PAGData.json</code>.</p>
 
   <script>
-    const DATA_URL = 'dashboard_data.json';
+    const DATA_URL = 'PAGData.json';
     const SAVE_URL = 'http://127.0.0.1:5000/save-dashboard'; // adjust if needed
 
     const backBtn = document.getElementById('backBtn');
@@ -480,8 +480,8 @@
         DASH = await res.json();
         hydrateFromJSON();
       }catch(e){
-        console.error('Failed to load dashboard_data.json', e);
-        alert('Could not load dashboard_data.json');
+        console.error('Failed to load PAGData.json', e);
+        alert('Could not load PAGData.json');
       }
     }
 
