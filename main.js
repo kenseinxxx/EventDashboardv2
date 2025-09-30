@@ -160,7 +160,7 @@ function populateSessions(data){
   dashboardSessionsBody.innerHTML = '';
   editSessionsBody.innerHTML = '';
   data.sessions.forEach((s,i)=>{
-    const deficit = (s.planned || s.target || 0) - (s.current || 0);
+    const deficit = (s.planned || s.target || 0) - (s.unique || 0);
     // Dashboard row
     const trDash = document.createElement('tr');
     trDash.className='border-b hover:bg-gray-50';
@@ -171,7 +171,7 @@ function populateSessions(data){
       <td>${s.current || 0}</td>
       <td>${s.unique || 0}</td>
       <td>${s.oncologist || 0}</td>
-      <td class="${deficit >= 0 ? 'text-green-600' : 'text-red-600'}">${deficit}</td>
+      <td class="${deficit >= 0 ? 'text-red-600' : 'text-green-600'}">${deficit}</td>
     `;
     dashboardSessionsBody.appendChild(trDash);
     // Edit row
